@@ -1,7 +1,7 @@
 <h1 align="center">Elite Rentals — Car Dealership Website</h1>
 
 <p align="center">
-  <img src="https://i.imgur.com/tBHmvsw.png"/>
+  <img src="https://i.imgur.com/3FSjoS2.png"/>
 </p>
 
 <br>
@@ -32,5 +32,8 @@
 
 ## 👤 Developers
 
-**Atanas Todorov** – *Scrum Trainer* <br>
-**Bozhidar Stanev** – *Front-End Developer*
+**Atanas Todorov** – *Scrum Trainer & Developer* <br>
+**Bozhidar Stanev** – *Front-End Developer* <br>
+**Radoslav Stoyanov** – *Back-End Developer* <br>
+**Georgi Dinkov** – *Designer & Developer*
+
