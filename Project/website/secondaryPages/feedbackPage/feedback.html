@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Elite Rentals</title>
+    <link rel="stylesheet" href="feedback.css">
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/4/44/Car_-_The_Noun_Project.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <section class="home">
+        <header>
+            <a href="#" class="logo"><i class="fas fa-car"></i>Elite Rentals</a>
+
+            <nav class="navigationBar">
+                <a href="../../index.html">Home</a>
+                <a href="../aboutPage/about.html">About</a>
+                <a href="../loginPage/login.html">Log In</a>
+                <a href="#">Feedback</a>
+            </nav>
+            <div class="dropdown">
+                <a href="../carsPage/cars.html" class="dropbtn">Cars <i class="fas fa-caret-down"></i></a>
+                <div class="dropdownContent">
+                    <a href="cars.html">City Cars</a>
+                    <a href="electricVehicles.html">Electric</a>
+                    <a href="premiumVehicles.html">Premium</a>
+                    <a href="suvVehicles.html">SUVs</a>
+                </div>
+            </div>
+        </header>
+    </section>
+
+    <section class="feedbackSection">
+        <div class="feedbackContainer">
+            <div class="feedbackText">
+                <h2>We Value Your Feedback</h2>
+                <p>Let us know how your experience was with Elite Rentals. Your input helps us grow and serve you better!</p>
+                <form class="feedbackForm" action="feedbackSent.html">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your email" required>
+
+                    <label for="message">Your Feedback</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div class="feedbackImage">
+                <img src="../../secondaryCategoryPictures/feedbackPagePictures/feedback.png" alt="Feedback">
+            </div>
+        </div>
+    </section>
+
+<section class="reviewsSection">
+    <h2>What Our Customers Say</h2>
+    <div class="reviewCards">
+        <div class="reviewCard">
+            <p>"Elite Rentals made my trip seamless. Great car selection and excellent service!"</p> <br>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>- Anna T.</span>
+        </div>
+        <div class="reviewCard">
+            <p>"The online booking was fast and easy. The car was in perfect condition."</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <span>- Marcus G.</span>
+        </div>
+        <div class="reviewCard">
+            <p>"I had an issue with pickup, but customer support handled it quickly. Recommended!"</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <span>- Priya N.</span>
+        </div>
+    </div>
+</section>
+
+    <!-- Feedback Section Ends Here -->
+
+    <footer class="footer">
+        <div class="socialMediaHandles">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.tiktok.com/" target="_blank"><i class="fab fa-tiktok"></i></a>
+        </div>
+        <p>© 2025 Elite Rentals. All rights reserved.</p>
+    </footer>
+</body>
+</html>

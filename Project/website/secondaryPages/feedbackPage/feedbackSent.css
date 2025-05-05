@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Popins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    letter-spacing: 1px;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    font-size: 1.2rem;
+}
+
+.feedback-sent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+}
+
+.content {
+    width: 80%;
+    max-width: 800px;
+}
+
+.content h2 {
+    font-size: 3rem;
+    color: #111;
+    margin-bottom: 1rem;
+}
+
+.content p {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 8px;
+    background: #1c1c42;
+    color: #fff;
+    font-size: 1.2rem;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn:hover {
+    background: #151547;
+    transition: background 0.3s ease;
+}
+
+.footer {
+    background: #eeeff1;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer .socialMediaHandles {
+    margin-bottom: 10px;
+}
+
+.footer .socialMediaHandles a {
+    color: #202022;
+    font-size: 24px;
+    margin: 0 10px;
+    display: inline-block;
+    transition: color 0.3s;
+}
+
+.footer .socialMediaHandles a:hover {
+    color: #1c1c42;
+}
+
+.footer p {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+}
+
+.feedback-image {
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+}
