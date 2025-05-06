@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #eeeff1;
+    color: #1c1c42;
+  }
+  
+  .fleet-section {
+    text-align: center;
+    padding: 50px 5%;
+    background: #eeeff1;
+  }
+  
+  .fleet-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #111;
+  }
+  
+  .fleet-section p {
+    font-size: 1.1rem;
+    color: #1c1c42;
+    margin-bottom: 40px;
+  }
+  
+  .car-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+  
+  .car-card {
+    display: flex;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+    width: 80%;
+    max-width: 950px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .car-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  }
+  
+  .car-card img {
+    width: 50%;
+    object-fit: s;
+    height: auto;
+    border-right: 1px solid #f0f0f0;
+  }
+  
+  .car-card-content {
+    padding: 30px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+  }
+  
+  .car-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #1c1c42;
+  }
+  
+  .car-card ul {
+    padding-left: 0;
+    list-style: none;
+    margin-bottom: 25px;
+  }
+  
+  .car-card ul li {
+    font-size: 1rem;
+    margin: 12px 0;
+    color: #333;
+  }
+  
+  .car-card ul li i {
+    margin-right: 10px;
+    color: #1c1c42;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #1c1c42;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+  }
+  
+  .btn:hover {
+    background: #2a2a5a;
+  }
