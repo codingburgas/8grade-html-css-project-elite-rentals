@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eeeff1;
+    color: #222;
+  }
+  
+  header {
+    background: #eceef1;
+    padding: 15px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .car-detail-page {
+    display: flex;
+    justify-content: center;
+    padding: 50px 5%;
+    background-color: #eeeff1;
+  }
+  
+  .car-detail-card {
+    display: flex;
+    flex-wrap: wrap;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+    overflow: hidden;
+    max-width: 1000px;
+    width: 100%;
+  }
+  
+  
+  .car-details {
+    flex: 1 1 50%;
+    padding: 30px;
+    box-sizing: border-box;
+  }
+  
+  .car-details h2 {
+    margin-bottom: 15px;
+    font-size: 2rem;
+    color: #1c1c42;
+  }
+  
+  .car-details .location,
+  .car-details .price,
+  .car-details .contact {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    font-size: 1rem;
+    color: #444;
+  }
+  
+  .car-details i {
+    margin-right: 10px;
+    color: #1c1c42;
+  }
+
+  .call-btn {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #1c1c42;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s;
+    
+  }
+  
+  .call-btn:hover {
+    background: #33334d;
+  }
+  
+  .technical-specs {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+    width: 100%;
+    max-width: 1000px;
+    margin: 40px auto 60px;
+    transition: 0.3s;
+  }
+  
+  .technical-specs h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #1c1c42;
+    text-align: center;
+  }
+  
+  .technical-specs table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .technical-specs td {
+    padding: 14px 20px;
+    border-bottom: 1px solid #ddd;
+    font-size: 1rem;
+  }
+  
+  .technical-specs td:first-child {
+    font-weight: bold;
+    color: #1c1c42;
+    width: 200px;
+  }
+  
+  .technical-specs i {
+    margin-right: 8px;
+    color: #1c1c42;
+  }
+  
