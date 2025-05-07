@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Invoice Info</title>
+  <link rel="stylesheet" href="checkoutInvoice.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="left">
+      <h2>Billing Information</h2>
+
+<form action="checkoutFinalised.html" method="get">
+  <div class="form-group">
+    <label for="name">Full Name</label>
+    <input type="text" id="name" name="name" placeholder="e.g., Martin Borisov" required>
+  </div>
+
+  <div class="form-group">
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email" placeholder="e.g., martin@example.com" required>
+  </div>
+
+  <div class="form-group">
+    <label for="address">Billing Address</label>
+    <textarea id="address" name="address" rows="4" placeholder="e.g., 123 Sofia St, Burgas, 8000" required></textarea>
+  </div>
+
+  <div class="form-group">
+    <label for="country">Country</label>
+    <input type="text" id="country" name="country" placeholder="e.g., Bulgaria" required>
+  </div>
+
+  <button type="submit" class="pay-btn">Submit for Invoice</button>
+</form>
+
+    </div>
+
+<div class="right">
+  <h2>Summary</h2>
+  <div class="payment-box">
+    <div class="method">
+      <img src="../../../secondaryCategoryPictures/checkoutPictures/email.jpg" alt="Email Icon" class="icon card">
+      <span>Invoice via Email</span>
+    </div>
+  </div>
+      <div class="amount">$75.00 <span>USD</span></div>
+      <div class="terms">An invoice will be sent to your provided email address.</div>
+    </div>
+  </div>
+
+
+</body>
+</html>

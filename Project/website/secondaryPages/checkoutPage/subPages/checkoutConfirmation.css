@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #121212;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.thank-you {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  padding: 20px;
+}
+
+.thank-you .logo {
+  width: 220px;
+  margin-bottom: 30px;
+}
+
+.thank-you h1 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.thank-you p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  max-width: 600px;
+}
+
+.home-btn {
+  font-size: 20px;
+  padding: 20px 40px;
+  background-color: #555;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.home-btn:hover {
+  background-color: #777;
+}
