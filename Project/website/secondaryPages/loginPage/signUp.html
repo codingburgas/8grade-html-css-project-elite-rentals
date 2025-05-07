@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Elite Rentals</title>
+    <link rel="stylesheet" href="auth.css">
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/4/44/Car_-_The_Noun_Project.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <section class="home">
+        <header>
+            <a href="#" class="logo"><i class="fas fa-car"></i>Elite Rentals</a>
+
+            <nav class="navigationBar">
+                <a href="../../index.html">Home</a>
+                <a href="../aboutPage/about.html">About</a>
+                <a href="login.html">Log In</a>
+                <a href="../feedbackPage/feedback.html">Feedback</a>
+            </nav>
+<div class="dropdown">
+    <a href="../carsPage/cars.html" class="dropbtn">Cars <i class="fas fa-caret-down"></i></a>
+    <div class="dropdown-content">
+            <a href="../carsPage/secondaryCarPages/cityCars/cityCars.html">City Cars</a>
+            <a href="../carsPage/secondaryCarPages/electricVehicles/electricVehicles.html">Electric</a>
+            <a href="../carsPage/secondaryCarPages/premiumVehicles/PremiumVehicles.html">Premium</a>
+            <a href="../carsPage/secondaryCarPages/suvVehicles/suvVehicles.html">SUVs</a>
+    </div>
+</div>
+
+        </header>
+
+        <div class="login-container">
+            <form class="login-form" action="login.html" method="GET">
+                <h2>Sign Up for Elite Rentals</h2>
+                <div class="input-group">
+                    <label for="username">Username</label>
+                    <input type="username" id="user" placeholder="Enter a unique username" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter your password" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Repeat Password</label>
+                    <input type="password" id="r-password" placeholder="Enter password again" required>
+                </div>
+                <button type="submit" class="btn">Sign Up</button>
+                <p class="login-link">Already Have An Account? <a href="login.html">Log In</a></p>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="socialMediaHandles">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.tiktok.com/" target="_blank"><i class="fab fa-tiktok"></i></a>
+        </div>
+        <p>© 2025 Elite Rentals. All rights reserved.</p>
+    </footer>
+</body>
+</html>
