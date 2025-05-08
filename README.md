@@ -9,6 +9,7 @@
 ## 📑 Table of Contents
 
 - [About the Project](#about-the-project)
+- [Features](#features)
 - [Languages Used](#languages-used)
 - [Tools & Platforms](#tools--platforms)
 - [Project Files](#project-files)
@@ -17,6 +18,17 @@
 ## 🗂 About the Project
 
 **Elite Rentals** is a modern website built to showcase a dealership’s full range of cars for rent. It features a clean interface, modern design, and a smooth user experience for clients looking to browse vehicles online.
+
+## 🌟 Features
+
+- 🚗 Browse a full catalog of available rental cars
+- 📋 Detailed car pages with specs and rental prices
+- 🔍 Search and filter vehicles by category or price
+- 💡 Responsive design for mobile and desktop
+- 🧭 Easy navigation and clean UI layout
+- 🛠️ Built using HTML and CSS only (no frameworks)
+- 💼 Professional documentation and presentation included
+
 
 ## 🧪 Languages Used
 
