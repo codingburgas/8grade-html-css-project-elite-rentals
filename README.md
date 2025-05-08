@@ -24,7 +24,6 @@
 - 🚗 Browse a full catalog of available rental cars
 - 📋 Detailed car pages with specs and rental prices
 - 🔍 Search and filter vehicles by category or price
-- 💡 Responsive design for mobile and desktop
 - 🧭 Easy navigation and clean UI layout
 - 🛠️ Built using HTML and CSS only (no frameworks)
 - 💼 Professional documentation and presentation included
