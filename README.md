@@ -1,7 +1,7 @@
-<h1 align="center">Elite Rentals — Car Dealership Website</h1>
+<h1 align="center">Elite Rentals - Car Dealership Website</h1>
 
 <p align="center">
-  <img src="https://i.imgur.com/3FSjoS2.png"/>
+  <img src="https://i.imgur.com/gniDwec.png"/>
 </p>
 
 <br>
@@ -31,11 +31,11 @@
 ## 🧪 Languages Used
 
 <p align="left">
-  <a href="https://en.wikipedia.org/wiki/HTML">
+  <a href="https://en.wikipedia.org/wiki/HTML/">
     <img src="https://i.imgur.com/6UPrSqj.png" alt="HTML5" width="48"/>
   </a>
-  <a href="https://git-scm.com/">
-    <img src="https://i.imgur.com/QAIyJwJ.png" alt="CSS3" width="48"/>
+  <a href="https://en.wikipedia.org/wiki/CSS/">
+    <img src="https://i.imgur.com/WnNm2vD.png" alt="CSS3" width="48"/>
   </a>
 </p>
 
