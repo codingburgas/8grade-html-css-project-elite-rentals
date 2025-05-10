@@ -1,7 +1,7 @@
 <h1 align="center">Elite Rentals - Car Dealership Website</h1>
 
 <p align="center">
-  <img src="https://i.imgur.com/gniDwec.png"/>
+  <img src="https://i.imgur.com/Zmfe4yh.png"/>
 </p>
 
 <br>
@@ -32,10 +32,10 @@
 
 <p align="left">
   <a href="https://en.wikipedia.org/wiki/HTML/">
-    <img src="https://i.imgur.com/6UPrSqj.png" alt="HTML5" width="48"/>
+    <img src="https://i.imgur.com/WoVoeSP.png" alt="HTML5" width="48"/>
   </a>
   <a href="https://en.wikipedia.org/wiki/CSS/">
-    <img src="https://i.imgur.com/WnNm2vD.png" alt="CSS3" width="48"/>
+    <img src="https://i.imgur.com/a4Y7NwL.png" alt="CSS3" width="48"/>
   </a>
 </p>
 
