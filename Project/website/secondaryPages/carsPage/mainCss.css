@@ -46,6 +46,10 @@ header .navigationBar a{
     color: #202022;
     font-weight: 500;
     margin-right: 10px;
+    transition: color 0.3s;
+}
+header .navigationBar a:hover{
+    color: #00ccff;
 }
 .home .content{
     width: 100%;
@@ -181,7 +185,7 @@ header .navigationBar a{
     transition: color 0.3s;
 }
 .footer .socialMediaHandles a:hover {
-    color: #1c1c42;
+    color: #00ccff;
 }
 .footer p {
     font-size: 14px;
