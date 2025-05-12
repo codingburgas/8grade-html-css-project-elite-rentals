@@ -14,7 +14,7 @@ body {
 .container {
   display: flex;
   justify-content: space-between;
-  gap: 40px;
+  gap: 40px; /* Gap between columns */
 }
 
 .left {
@@ -39,7 +39,7 @@ h2 {
   text-decoration: underline;
   cursor: pointer;
 }
-
+/* Payment box */
 .payment-box {
   background-color: #1e1e1e;
   border-radius: 10px;
@@ -72,7 +72,7 @@ h2 {
 .amount span {
   font-size: 18px;
 }
-
+/* Button */
 .pay-btn {
   background: #555;
   color: white;
