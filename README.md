@@ -53,7 +53,7 @@
 ## 📄 Project Files
 
 - 📊 [Presentation Slides](https://blank)
-- 📄 [Documentation](https://blank)
+- 📄 [Documentation](https://github.com/codingburgas/8grade-html-css-project-elite-rentals/blob/main/Project/documentation/EliteRentals.docx)
 
 
 ## 👤 Developers
