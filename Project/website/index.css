@@ -10,7 +10,7 @@
 html{
     scroll-behavior: smooth;
 }
-webkit-scrollbar{
+html ::-webkit-scrollbar{
     width: 5px;
 }
 html ::-webkit-scrollbar-thumb{
@@ -41,15 +41,11 @@ header .logo{
 header .logo i{
     color: #1c1c42;
 }
-header .navigationBar a{
+header .navbar a{
     font-size: 17px;
     color: #202022;
     font-weight: 500;
     margin-right: 10px;
-    transition: color 0.3s;
-}
-header .navigationBar a:hover{
-    color: #151547;
 }
 .home .content{
     width: 100%;
@@ -174,18 +170,18 @@ header .navigationBar a:hover{
     padding: 20px 0;
     text-align: center;
 }
-.footer .socialMediaHandles {
+.footer .social-icons {
     margin-bottom: 10px;
 }
-.footer .socialMediaHandles a {
+.footer .social-icons a {
     color: #202022;
     font-size: 24px;
     margin: 0 10px;
     display: inline-block;
     transition: color 0.3s;
 }
-.footer .socialMediaHandles a:hover {
-    color: #151547;
+.footer .social-icons a:hover {
+    color: #1c1c42;
 }
 .footer p {
     font-size: 14px;
