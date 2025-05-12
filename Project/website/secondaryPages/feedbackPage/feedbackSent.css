@@ -7,7 +7,7 @@
     list-style: none;
     letter-spacing: 1px;
 }
-
+/* Layout */
 html, body {
     height: 100%;
     display: flex;
@@ -42,7 +42,7 @@ html, body {
     color: #333;
     margin-bottom: 2rem;
 }
-
+/* Button */
 .btn {
     padding: 10px 20px;
     border-radius: 8px;
@@ -82,7 +82,7 @@ html, body {
 .footer .socialMediaHandles a:hover {
     color: #1c1c42;
 }
-
+/* Footer */
 .footer p {
     font-size: 14px;
     color: #555;
