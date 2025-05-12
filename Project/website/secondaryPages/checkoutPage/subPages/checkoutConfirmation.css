@@ -45,9 +45,9 @@ body {
   border-radius: 10px;
   text-decoration: none;
   font-weight: bold;
-  transition: background 0.3s;
+  transition: background 0.3s; /* Transition effect */
 }
-
+/* Hover effect */
 .home-btn:hover {
   background-color: #777;
 }
