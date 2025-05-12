@@ -49,7 +49,7 @@ header .navigationBar a{
     transition: color 0.3s;
 }
 header .navigationBar a:hover{
-    color: #00ccff;
+    color: #1c1c42;
 }
 .home .content{
     width: 100%;
@@ -183,9 +183,6 @@ header .navigationBar a:hover{
     margin: 0 10px;
     display: inline-block;
     transition: color 0.3s;
-}
-.footer .socialMediaHandles a:hover {
-    color: #00ccff;
 }
 .footer p {
     font-size: 14px;
