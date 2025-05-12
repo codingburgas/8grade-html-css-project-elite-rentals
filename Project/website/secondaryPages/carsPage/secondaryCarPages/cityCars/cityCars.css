@@ -4,7 +4,7 @@ body {
     background: #eeeff1;
     color: #1c1c42;
   }
-  
+  /* Fleet section */
   .fleet-section {
     text-align: center;
     padding: 50px 5%;
@@ -22,7 +22,7 @@ body {
     color: #1c1c42;
     margin-bottom: 40px;
   }
-  
+  /* Car grid */
   .car-grid {
     display: flex;
     flex-direction: column;
@@ -84,7 +84,7 @@ body {
     margin-right: 10px;
     color: #1c1c42;
   }
-
+  /* Button */
   .btn {
     display: inline-block;
     padding: 10px 20px;
