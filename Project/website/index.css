@@ -2,9 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-family: 'Popins', sans-serif;
     text-decoration: none;
     list-style: none;
+    letter-spacing: 1px ;
 }
 html{
     scroll-behavior: smooth;
@@ -20,96 +21,91 @@ html ::-webkit-scrollbar-track{
     background: #eee;
 }
 body{
-    background: linear-gradient(to right, #001f4d, #0099cc);
-      color: #fff;
+    background: #fff;
+    overflow-x: hidden;
 }
 header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 60px;
-    background: linear-gradient(to right, #001f4d, #0099cc);
+    padding: 15px 5%;
+    background: #eeeff1;
     z-index: 1000;
-    display: flex;
 }
 header .logo{
-    font-size: 24px;
-    color: #dadae2;
+    font-size: 22px;
+    color: #202022;
     font-weight: bold;
     letter-spacing: 2px;
 }
 header .logo i{
-    color: #dadae2;
+    color: #1c1c42;
 }
-header .navigationBar a{
+header .navbar a{
     font-size: 17px;
-    color: #dadae2;
+    color: #202022;
     font-weight: 500;
     margin-right: 10px;
-    transition: color 0.3s;
-}
-header .navigationBar a:hover{
-    color: #00ccff;
 }
 .home .content{
-    height: 46rem;
+    width: 100%;
+    height: 33rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin-bottom: 5px;
-    background: linear-gradient(to right, #001f4d, #0099cc);
-    padding: 60px;
+    justify-content: center;
+    margin-bottom: 15px;
+    background: #eeeff1;
+    padding: 0 5%;
     position: relative;
 }
 .home .text{
-    flex: 1 1 15rem;
+    flex: 1 1 20rem;
 }
 .home .text .title{
     width: fit-content;
     background: #1c1c42;
-    padding: 8px;
+    padding: 5px;
     color: #fff;
-    font-size: 18px;
-    
+    font-size: 15px;
 }
 .home .text h2{
-    color: white;
-    font-size: 60px;
-    padding-top: .4rem;
+    color: #111;
+    font-size: 50px;
+    padding-top: .5rem;
     letter-spacing: 2px;
 }
 .home .text h2 span{
-    color: white;
+    color: #151547;
 }
 .home .text p{
-    color: white;
-    font-size: 20px;
-    margin-bottom: 35px;
+    font-size: 17px;
+    color: #202022;
+    overflow: .5rem 0 1rem;
 }
 .btn{
-    background: #3399ff;
-    border: none;
-    color: white;
-    padding: 15px 30px;
-    border-radius: 10px;
-    font-size: 20px;
-    cursor: pointer;
-    transition: background 0.3s;
+    display: inline-block;
+    margin-top: 14px;
+    padding: 5px;
+    border: .2rem solid #1c1c42;
+    border-radius: 8px;
+    color: #1c1c42;
+    background: #fff;
+    font-size: 1.2rem;
 }
 .btn i{
     padding: 8px 16px;
     border-radius: 5rem;
-    background: #3399ff;
+    background: #fff;
     margin-left: .5rem;
 }
 .btn:hover{
-    background: #007acc;
+    background: #151547;
     color: #fff;
     transition: background 0.3s, color 0.3s;
 }
 .btn:hover i{
-    background: #007acc;
-    color: white;
+    background: #fff;
+    color: #36363a;
     margin-left: 12px;
 }
 .home .image{
@@ -127,7 +123,7 @@ header .navigationBar a:hover{
 
 .dropbtn {
     font-size: 17px;
-    color: white;
+    color: #202022;
     font-weight: 500;
     padding: 10px 15px;
     background: transparent;
@@ -140,7 +136,7 @@ header .navigationBar a:hover{
     position: absolute;
     top: 100%;
     right: 0;
-    background: #3399ff;
+    background: #eeeff1;
     min-width: 180px;
     border-radius: 8px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
@@ -150,16 +146,16 @@ header .navigationBar a:hover{
 
 .dropdown-content a {
     display: block;
-    background: #3399ff;
-    color: white;
-    padding: 15px 30px;
+    padding: 12px 16px;
     font-size: 16px;
+    color: #202022;
+    background: #eeeff1;
     transition: background 0.3s, color 0.3s;
 }
 
 .dropdown-content a:hover {
-    background: #000d1a;
-    color: #3399ff;
+    background: #1c1c42;
+    color: #fff;
 }
 
 .dropdown:hover .dropdown-content {
@@ -170,33 +166,25 @@ header .navigationBar a:hover{
 }
 
 .footer {
-    background: #000d1a;
-      padding: 30px 40px;
-      text-align: center;
-}
-.footer .socialMediaHandles {
-    margin-top: -20px;
+    background: #eeeff1;
+    padding: 20px 0;
     text-align: center;
 }
-.footer .socialMediaHandles a {
+.footer .social-icons {
+    margin-bottom: 10px;
+}
+.footer .social-icons a {
+    color: #202022;
     font-size: 24px;
+    margin: 0 10px;
     display: inline-block;
     transition: color 0.3s;
-    margin: 0 10px;
-    color: white;
-    cursor: pointer;
 }
-.footer .socialMediaHandles a:hover {
-    color: #00ccff;
+.footer .social-icons a:hover {
+    color: #1c1c42;
 }
 .footer p {
-    font-size: 15px;
-    color: white;
+    font-size: 14px;
+    color: #555;
     margin-top: 10px;
-}
-
-.logo-img {
-  max-height: 200px;
-  max-width: 1000px;
-  vertical-align: middle;
 }
