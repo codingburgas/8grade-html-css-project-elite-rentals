@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/* Body styling */
 body {
   background: #121212;
   color: #fff;
@@ -39,7 +39,7 @@ h2 {
   text-decoration: underline;
   cursor: pointer;
 }
-
+/* Payment box */
 .payment-box {
   background-color: #1e1e1e;
   border-radius: 10px;
@@ -77,7 +77,7 @@ h2 {
 .amount span {
   font-size: 18px;
 }
-
+/* Payment Button */
 .pay-btn {
   background: #555;
   color: white;
@@ -94,7 +94,7 @@ h2 {
   font-size: 12px;
   color: #aaa;
 }
-
+/* Footer */
 footer {
   margin-top: 60px;
   font-size: 12px;
