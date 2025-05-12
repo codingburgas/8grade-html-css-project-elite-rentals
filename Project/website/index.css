@@ -41,11 +41,15 @@ header .logo{
 header .logo i{
     color: #1c1c42;
 }
-header .navbar a{
+header .navigationBar a{
     font-size: 17px;
     color: #202022;
     font-weight: 500;
     margin-right: 10px;
+    transition: color 0.3s;
+}
+header .navigationBar a:hover{
+    color: #151547;
 }
 .home .content{
     width: 100%;
@@ -170,18 +174,18 @@ header .navbar a{
     padding: 20px 0;
     text-align: center;
 }
-.footer .social-icons {
+.footer .socialMediaHandles {
     margin-bottom: 10px;
 }
-.footer .social-icons a {
+.footer .socialMediaHandles a {
     color: #202022;
     font-size: 24px;
     margin: 0 10px;
     display: inline-block;
     transition: color 0.3s;
 }
-.footer .social-icons a:hover {
-    color: #1c1c42;
+.footer .socialMediaHandles a:hover {
+    color: #151547;
 }
 .footer p {
     font-size: 14px;
