@@ -9,7 +9,7 @@
 }
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; /* Smooth scrolling */
 }
 
 html::-webkit-scrollbar {
@@ -27,9 +27,9 @@ html::-webkit-scrollbar-track {
 
 body {
     background: #fff;
-    overflow-x: hidden;
+    overflow-x: hidden; /* Prevents horizontal scroll */
 }
-
+/* Header and navigation */
 header {
     display: flex;
     align-items: center;
@@ -38,7 +38,7 @@ header {
     background: #eeeff1;
     position: sticky;
     top: 0;
-    z-index: 1000;
+    z-index: 1000; /* Keeps header above */
 }
 
 header .logo {
@@ -49,7 +49,7 @@ header .logo {
 
 header .logo i {
     color: #1c1c42;
-    margin-right: 8px;
+    margin-right: 8px; /* Dark blue icon */
 }
 
 .navigationBar a {
@@ -62,7 +62,7 @@ header .logo i {
 .navigationBar a:hover {
     color: #1c1c42;
 }
-
+/* Dropdown menu */
 .dropdown {
     position: relative;
 }
@@ -101,11 +101,11 @@ header .logo i {
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
+    display: block; /* Show menu on hover */
 }
 
 .about-section {
-    padding: 4rem 5%;
+    padding: 4rem 5%; /* Outer spacing */
 }
 
 .about-section .home {
@@ -171,7 +171,7 @@ header .logo i {
     background: #1c1c42;
     color: #fff;
 }
-
+/* Footer section */
 .footer {
     background: #eeeff1;
     text-align: center;
