@@ -52,7 +52,7 @@
 
 ## 📄 Project Files
 
-- 📊 [Presentation Slides](https://blank)
+- 📊 [Presentation Slides](https://github.com/codingburgas/8grade-html-css-project-elite-rentals/blob/main/Project/documentation/Elite%20Rentails.pptx)
 - 📄 [Documentation](https://github.com/codingburgas/8grade-html-css-project-elite-rentals/blob/main/Project/documentation/EliteRentals.docx)
 
 
