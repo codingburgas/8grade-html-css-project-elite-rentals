@@ -22,7 +22,7 @@ html ::-webkit-scrollbar-track{
 }
 body{
     background: #fff;
-    overflow-x: hidden;
+    overflow-x: hidden; /* Prevents horizontal scroll */
 }
 /* Header and navigation */
 header{
@@ -31,7 +31,7 @@ header{
     justify-content: space-between;
     padding: 15px 5%;
     background: #eeeff1;
-    z-index: 1000;
+    z-index: 1000; /* Keeps header above */
 }
 header .logo{
     font-size: 22px;
